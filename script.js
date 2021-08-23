@@ -33,7 +33,7 @@ $(document).ready(function(){
     $('.menu-btn').on('click', function clicked(){
         if(a===0)
         {
-            $(".navbar .menu").css({'left':'0%','height':'200px','color':'#331343'});
+            $(".navbar .menu").css({'left':'0%','height':'100%','color':'#331343'});
                 a++
             }
         else
