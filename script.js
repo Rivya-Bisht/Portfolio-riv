@@ -29,6 +29,18 @@ $(document).ready(function(){
     });
 
 
+    var a;
+    $('.menu-btn').on('click', function clicked(){
+        if(a===0)
+        {
+            $(".navbar .menu").css({'left':'0%','height':'200px','color':'#331343'});
+                a++
+            }
+        else
+        {
+        $(".navbar .menu").css({'left':'-100%'});a=0;
+        }
+        });
 
 
     // typing text animation script
