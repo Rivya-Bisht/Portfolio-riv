@@ -158,10 +158,14 @@ section .title::after{
 
 /* footer section styling */
 footer{
-    background: #111;
+     background: #111;
     padding: 15px 23px;
     color: #fff;
     text-align: center;
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 footer span a{
     color: orange;
